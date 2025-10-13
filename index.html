@@ -4,31 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voyage & rêve</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+     <a class="navbar-brand" href="#">
+    <img src="images/logo1.png" alt="logo de l'agence" width="40" height="40" class="me-2">
+    <span>Voyage & rêve</span>
+      </a>
+   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Destinations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Circuits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" class="#">Contacts</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<!-- section hero -->
+ <div class="hero">
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center hero-text-center">
+            <div class="text-center">
+                <h1 class="fw-bold">Voyage & Rêve</h1>
+                <p>Plus qu'un voyage, une expérience à vivre.</p>
+                <button type="button" class="btn btn-primary btn-sm">Réservez maintenant</button>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- section Destination -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Destinations</h2>
+
+    <div class="row">
+    <div class="col-md-4 mb-4">
+    <div class="card" style="width: 18rem;">
+  <img src="images/Canada1.webp" class="card-img-top" alt="Canada">
+  <div class="card-body">
+    <h5 class="card-title">Canada</h5>
+    <p class="card-text">Découvrez les paysages grandioses du Canada, entre montagnes, lacs et forêts.
+      Une destination parfaite pour les amoureux de nature et d'aventure.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="images/paris.jpg" class="card-img-top" alt="Paris">
+  <div class="card-body">
+    <h5 class="card-title">Paris</h5>
+    <p class="card-text">Explorez  Paris, la ville lumière, célèbre pour sa <strong>Tour Eiffel</strong>, ses cafés charmants
+     et son ambiance romantique qui séduit les voyageurs du monde entier.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="images/ab.webp" class="card-img-top" alt="Arabie Saoudite">
+  <div class="card-body">
+    <h5 class="card-title">Arabie Saoudite</h5>
+    <p class="card-text">Découvrez l'Arabie Saoudite, terre de spiritualité et de culture. Visitez la <strong>Mecque</strong> et admirez la <strong>Kaaba</strong> 
+      symbole du pélerinage et coeur du monde musulman.</p>
+    <a href="#" class="btn btn-primary">En savoir plus</a>
+  </div>
+</div>
+</div>
+
+    <!-- section Circuits -->
+     <section class="container my-5">
+      <h2 class="text-center mb-4">Nos Circuits</h2>
+
+     <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Circuit Découverte du Canada
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Partez pour un voyage inoubliable à travers les paysages grandioses du CANADA: forêts, lacs, chutes du Niagara et villes
+        modernes comme Montréal et Toronto.
+            <a href="#" class="text-primary fw-bold">Afficher les détails</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Séjour Romantique à Paris
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         Découvrez Paris, la ville de l'amour, avec une croisière sur la seine, la visite de la Tour Eiffel et une promenade
+        dans le quartier de Montmartre.
+            <a href="#" class="text-primary fw-bold">Afficher les détails</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Voyage spirituel en Arabie Sapoudite
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         Vivez une expériences unique en visitant la Mecque, le Kaaba et les sites historiques de Médine, dans une atmosphère de paix 
+        et de spiritualité.
+            <a href="#" class="text-primary fw-bold">Afficher les détails</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+     <!-- section contact -->
+      <section id="contact" class="contact-section mt-5">
+        <div class="container">
+          <p><a href="contact.html">Contactez-nous pour reserver votre billet</a></p>
+          <form action="#" method="post">
+            <div class="mb-3">
+              <label for="Nom" class="form-label">Nom</label>
+              <input type="text" id="Nom" name="Nom" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="Email" class="form-label">Email</label>
+              <input type="email" id="Email" name="Email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="Destination d'intérêt" class="form-label">Destination d'intérêt</label>
+              <input type="Destination d'intérêt" id="Destination d'intérêt" name="Destination d'intérêt" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="Message" class="form-label">Message</label>
+              <input type="Message" id="Message" name="Message" class="form-control" required>
+            </div>
+          </form>
+        </div>
+      </section>
+  </section>
+
+  <!-- footer -->
+   <footer>
+    <p>&copy; 2025 Voyage & Rêve | Tous droits réservés</p>
+    <a href="https://www.facebook.com" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com" target="_blank" aria-label="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.Linkedin.com" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.whatsapp.com" target="_blank" aria-level="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.Toktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-Tiktok"></i></a>
+   </footer>
+   <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
 </body>
 </html>
