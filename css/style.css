@@ -17,7 +17,7 @@ body{
 .navbar-brand{
     font-weight: 700;
     font-size: 1.6rem;
-    color: #333;
+    color: #0077b6;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 .nav-link{
-    color: #333;
+    color: #0077b6;
     transition: all 0.3s ease;
     font-weight: 500;
     text-transform: capitalize;
@@ -199,11 +199,11 @@ h2{
 
 /* footer */
 footer{
-    background-color: #111;
+    background-color: #0077b6;
     color: #fff;
     font-size: 0.9rem;
     text-align: center;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 footer a {
